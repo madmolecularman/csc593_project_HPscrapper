@@ -1,0 +1,38 @@
+---
+title: "CSC 593 NCBI project"
+author: "Jacob M. Green"
+date: "11/16/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Building a NCBI web scraper and deep-learning model for inferring host pathogen genomic interactions
+### Jacob M. Green
+
+#### **Introduction**
+
+	Accessing and applying genomic information is one of the greatest challenges in the era of next generation sequencing.  An immense amount of genomic information is stored on the National Center for Biotechnology Information (NCBI) which includes DNA and RNA sequences, protein information, chromosome level structuring, gene expression, sequence homology, and a large archive of associated research papers. NCBI is also connected through every major bioscience database giving it unparalleled access to a myriad of other resources. Through this database researchers can access many different types of genomic information and apply bioinformatic analyses to answer biologically relevant questions. The ability to data mine this resource has become increasingly more important as sequencing is more accessible and the cost and quality of generating this data has significantly improved since the human genome was sequenced in 2001. A combination of machine-learning and data mining offer pattern-based approaches to resolve some of the heuristic challenges when applying algorithms to accessing and processing genomic information.
+	
+	Host-pathogen genetic interactions can fundamentally reshape host genomic architecture. Host pathogen interactions are the foundation for germ theory, which states that microorganisms or “germs” can infect a host and cause disease. The ability for a pathogen to cause disease is predicated on many factors including the genetic content of the pathogen. How a host fights these pathogens, experiences a diseased state, and recovers from cellular or physiological damage is dictated by the host immune response. Both the innate and adaptive immune system are supported by the expression of genes that can recognize pathogens, transmit a signal to the cell or surrounding cells, and fight the pathogen. Therefore, the ability for a pathogen to infect a host and the ability to a host to defend against a pathogen is based on the genetic material of each organism, which is an indirect interaction. In many ways the host-pathogen genomic interaction is indirect and in others much more direct. In some pathogens such as the herpesvirus, genetic content from the virus can undergo introgression, a process where genetic information is transferred from one species to another. This introgression of pathogenic genetic information leaves artifacts in the host genome and can contribute to the diversification and development of gene families such as the superfamily of immunoglobulins. Few tools have been developed to identify the level of pathogen introgression into host genomes.
+	
+	For this project I propose to design an NCBI web scraper and deep-learning model for accessing host and pathogen genomic information and apply an alignment-based method to infer levels of pathogen introgression. I will apply this workflow to known human pathogens and identify different levels on introgression in the human genome. This project is solely software based and will leverage NCBI and associated databases for data mining, open source tools available in Rstudio packages such as Rentrez and bioconductor, Anaconda environments to build program structures for alignment, and programming languages like Python and Unix to develop the working script. This project will be headed by myself with the assistance of Dr. Brice Loose for the CSC-593 course. Outside resources such as access to the school Blue Waves server and other computational skills support in networking languages, script design, and assistance with deep-learning models would be necessary to meet the goals of this project. To assess project completion, I will develop a working script that can align pathogen and host genomic information. This tool will also provide information on the level of introgression.
+	
+#### **Questions**
+
+* Focusing on a host-pathogen pair
+
+To test this I will be focusing on human endogenous retroviruses (HERV) which comprises approximately 5-8% of the human genome. 
+
+* Bounds of the machine learning model
+
+I don't think I will be able to create a deep learning model. What I would like to do is create a web-scraping python script for a host and pathogen genomes. The two genomes will be aligned using BWA, a software package to map DNA sequences against a large reference genome. The BAM file which is produced post alignment will then be read into janggu or DeepECA. I will need to come up with some sort of model framework and question to test in janggu or DeepECA
+
+* HPC at Brown
+
+I would like to use the resources available at Brown to test this platform
+
+#### 
+

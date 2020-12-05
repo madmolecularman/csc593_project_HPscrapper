@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1606157523018.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "BD798A61",
+    "lastKnownWriteTime" : 1606165396,
+    "last_content_update" : 1606165396727,
+    "path" : "C:/Users/jacog/Desktop/The Id/Old_Classes/CMB_522/Bioinformatics/install_packages.R",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "19,25",
+        "scrollLine" : "4"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

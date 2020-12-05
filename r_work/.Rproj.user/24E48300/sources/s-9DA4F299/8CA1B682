@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1606158276155.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "610080007",
+    "id" : "8CA1B682",
+    "lastKnownWriteTime" : 1607198307,
+    "last_content_update" : 1607198307160,
+    "path" : "C:/Users/jacog/Desktop/CSC593/project/HGTHP/database_work.R",
+    "project_path" : "database_work.R",
+    "properties" : {
+        "cursorPosition" : "75,0",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

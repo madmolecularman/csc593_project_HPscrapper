@@ -8,6 +8,14 @@ This project explores host pathogen genomic interactions. The pipeline largely d
 
 </center>
 
+For this project there are four primary goals
+
+1) Create script that can handle pathogen and host argument and search NCBI database using entrez
+2) Parse entrez results into full record, accession numbers, and pubmed articles
+3) Align pathogen nuccore sequences with clustalW and read .dnd file with Bio.phylo to create phylogenetic tree
+4) Align host and pathogen nuccore sequences with ClustalW, extract regions, and identify with BLAST
+5) Create Genome Diagram with subset identifying the gene and how they align
+
 \left
 
 **Citations**
